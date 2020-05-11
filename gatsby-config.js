@@ -2,6 +2,7 @@ const config = require('./config');
 
 module.exports = {
   pathPrefix: config.pathPrefix,
+  //pathPrefix:"/gatsbyjs",
   siteMetadata: {
     title: config.siteTitle,
   },
